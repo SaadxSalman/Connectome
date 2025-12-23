@@ -11,3 +11,13 @@ def create_neurological_collection():
     
     schema = CollectionSchema(fields, "Neurological pattern storage")
     return Collection("neuro_embeddings", schema)
+
+def check_connection():
+    try:
+        connections.connect("default", host="localhost", port="19530")
+        print("✅ Successfully connected to Neuro-Agent Milvus Cluster")
+    except Exception as e:
+        print(f"❌ Connection failed: {e}")
+
+if __name__ == "__main__":
+    check_connection()
