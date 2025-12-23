@@ -15,13 +15,15 @@ A continuation of your medical projects, Neuro-Agent is a multimodal AI agent de
 
 -----
 
-## ⚙️ Tech Stack
+## 🛠️ Tech Stack
 
-  * **Frontend/Backend:** [Next.js](https://nextjs.org/) and [Django](https://www.djangoproject.com/)
-  * **Core Processing:** Rust
-  * **Vector Database:** [Milvus](https://milvus.io/)
-  * **Medical Data Analysis:** [BiomedCLIP](https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224)
-  * **Video Analysis:** [VideoMAE-v2](https://github.com/OpenGVLab/VideoMAEv2)
+* **Frontend & Web Framework:** [Next.js](https://nextjs.org/) (App Router)
+* **Programming Languages:** [TypeScript](https://www.typescriptlang.org/), [Rust](https://www.rust-lang.org/), [Python](https://www.python.org/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Backend Services:** [Node.js](https://nodejs.org/), [Express.js](https://expressjs.com/), [Django](https://www.djangoproject.com/)
+* **Database:** [MongoDB](https://www.mongodb.com/) (MERN Stack), [Milvus](https://milvus.io/) (Vector DB)
+* **Medical Data Analysis:** [BiomedCLIP](https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224)
+* **Video Analysis:** [VideoMAE-v2](https://github.com/OpenGVLab/VideoMAEv2)
 
 -----
 
