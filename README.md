@@ -65,13 +65,3 @@ Create a `.env` file for your API keys and other environment variables for the v
 Run the backend and frontend services to start the agent. You can then use the web interface to input patient data for analysis.
 
 -----
-
-## 🤝 Contributing
-
-We welcome contributions from medical professionals, AI researchers, and developers. Please read our [CONTRIBUTING.md](https://www.google.com/search?q=https://github.com/saadsalmanakram/Neuro-Agent/blob/main/CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
------
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=https://github.com/saadsalmanakram/Neuro-Agent/blob/main/LICENSE) file for details.
