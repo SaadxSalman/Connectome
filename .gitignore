@@ -1,0 +1,45 @@
+# ============================================================================
+# SynapseCraft — root .gitignore
+# ============================================================================
+
+# ---------- secrets: NEVER commit ----------
+.env
+backend/.env
+frontend/.env
+frontend/.env.*
+*.pem
+*.key
+
+# ---------- python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# ---------- node / next.js ----------
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+.eslintcache
+npm-debug.log*
+yarn-error.log*
+
+# ---------- runtime data (vector store, connectome graph, stats) ----------
+backend/data/
+
+# ---------- os / editor ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp

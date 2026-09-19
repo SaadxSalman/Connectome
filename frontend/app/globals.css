@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  height: 100%;
+  background: #05070d;
+  color: #dbe4f3;
+}
+
+/* React Flow chrome, tuned for the dark neural theme */
+.react-flow__attribution {
+  display: none;
+}
+.react-flow__edge-text {
+  fill: #64748b;
+  font-size: 9px;
+}
+.react-flow__edge-textbg {
+  fill: #05070d;
+}
+.react-flow__handle {
+  opacity: 0;
+  width: 4px;
+  height: 4px;
+}
+.react-flow__controls {
+  box-shadow: none;
+}
+.react-flow__controls button {
+  background: #0a0f1c;
+  border-bottom: 1px solid #1c2a44;
+  color: #7dd3fc;
+  fill: #7dd3fc;
+}
+.react-flow__controls button:hover {
+  background: #101a2e;
+}
+
+/* Slim scrollbars everywhere in the cockpit */
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #1c2a44;
+  border-radius: 9999px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
