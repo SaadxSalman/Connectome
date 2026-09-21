@@ -210,7 +210,7 @@ Runtime artefacts live under `backend/data/` (gitignored): `vector_store.npz`, `
 
 ## 5. The Neural Agents — Multi-Agent Neuropil Hubs
 
-All four agent populations live in `backend/app/agents/cognition.py` and are wired into a LangGraph `StateGraph`
+All four agent populations live in `backend/app/agents/cognition.py` and are wired into a LangGraph `StateGraph`:
 
 ```
 sensory ──▶ circuits ──▶ synthesist ──▶ critic ──┐
