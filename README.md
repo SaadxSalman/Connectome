@@ -220,7 +220,7 @@ sensory ──▶ circuits ──▶ synthesist ──▶ critic ──┐
 
 ### ⚡ Sensory Neuron (`_node_sensory`)
 - Tokenises the query, embeds it (Ollama or hashing cortex).
-- Pulls the top `RECALL_K` candidates from the vector store.
+- Pulls the top `RECALL_K` candidates from the vector store..
 - Attaches per-candidate lexical-overlap features.
 - Emits `run_start` + `spike` events so the cockpit lights the agent up.
 - Re-fires on every reflection loop with a note that the signal is being re-sensed.
