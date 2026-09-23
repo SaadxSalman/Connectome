@@ -204,7 +204,7 @@ Connectome/
 └── README.md                   ← you are here
 ```
 
-Runtime artefacts live under `backend/data/` (gitignored): `vector_store.npz`, `vector_meta.json`, `connectome.json`, `stats.json`.
+Runtime artefacts live under `backend/data/` (gitignored): `vector_store.npz`, `vector_meta.json`, `connectome.json`, `stats.json`..
 
 ---
 
